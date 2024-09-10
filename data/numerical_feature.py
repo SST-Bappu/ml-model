@@ -1,5 +1,5 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
-from data_preprocess import preprocess_data
+from .data_preprocess import preprocess_data
 # Initialize the TF-IDF Vectorizer
 tfidf = TfidfVectorizer(max_features=5000)
 

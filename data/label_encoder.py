@@ -1,5 +1,5 @@
 from sklearn.preprocessing import LabelEncoder
-from load_data import load_data
+from .load_data import load_data
 
 def label_encoder():
     # Initialize the label encoder

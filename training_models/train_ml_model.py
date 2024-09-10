@@ -1,6 +1,5 @@
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score
-from datasets import datasets
+from data import datasets
 
 def train_ml_model():
     X_train, X_test, y_train, y_test = datasets()
@@ -17,5 +16,5 @@ def train_ml_model():
     # print(f'Accuracy: {accuracy * 100:.2f}%')
     return model
 
-if __name__ == '__main__':
-    train_ml_model()
+# if __name__ == '__main__':
+#     train_ml_model()

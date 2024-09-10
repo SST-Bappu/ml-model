@@ -3,7 +3,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 import string
-from load_data import load_data
+from .load_data import load_data
 
 nltk.data.path.append('/Users/sst-bappu/nltk_data')
 

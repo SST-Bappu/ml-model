@@ -1,6 +1,6 @@
 from sklearn.model_selection import train_test_split
-from numerical_feature import numerical_feature
-from label_encoder import label_encoder
+from .numerical_feature import numerical_feature
+from .label_encoder import label_encoder
 
 def datasets():
     X, tfidf = numerical_feature()
